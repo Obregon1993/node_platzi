@@ -4,3 +4,5 @@ pm2 start incicia el proceso, pm2 status checkea el estado y mp2 stop 'numero de
 
 
 ver q son las dependecias circulares----ojooooo
+
+para crear lo de la clase 16 modulos nativos de c++, una vez instalado el gyp a nivel global, entonces necesitaria crear la carpeta buid dentro de ella y despues masss.. ver clase para duda...
