@@ -34,6 +34,8 @@ function router(req, res) {
     //escribir respuesta al usuario
     switch (req.url) {
         case '/hola':
+            let saludo=hola();
+            res.write(saludo)
             res.write('Hola, que tal')
             res.end();
             break;
@@ -48,7 +50,9 @@ function router(req, res) {
     // res.write('hola, ya se escribir usando http');
     // res.end();
 }
-
+const hola=()=>{
+    return 'hola q tal'
+}
 
 console.log('escuchando en el puerto 3000');
 
